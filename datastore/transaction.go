@@ -17,7 +17,6 @@ package datastore
 import (
 	"context"
 	"errors"
-	"fmt"
 	"time"
 
 	"cloud.google.com/go/internal/trace"
@@ -158,7 +157,6 @@ func (c *Client) newTransaction(ctx context.Context, s *transactionSettings) (_ 
 			}},
 		}
 	}
-	fmt.Printf("req: %v\n", req)
 	resp, err := c.client.BeginTransaction(ctx, req)
 	if err != nil {
 		return nil, err

@@ -1,5 +1,18 @@
 # Changes
 
+## [1.17.0](https://github.com/googleapis/google-cloud-go/compare/billing/v1.16.0...billing/v1.17.0) (2023-08-31)
+
+
+### Features
+
+* **billing/budgets:** Supported project-level-budgets in Public Budget API V1 ([20725c8](https://github.com/googleapis/google-cloud-go/commit/20725c86c970ad24efa18c056fc3aa71dc3a4f03))
+* **billing/budgets:** Supported project-level-budgets in Public Budget API V1Beta ([20725c8](https://github.com/googleapis/google-cloud-go/commit/20725c86c970ad24efa18c056fc3aa71dc3a4f03))
+
+
+### Documentation
+
+* **billing:** Update comments ([20725c8](https://github.com/googleapis/google-cloud-go/commit/20725c86c970ad24efa18c056fc3aa71dc3a4f03))
+
 ## [1.16.0](https://github.com/googleapis/google-cloud-go/compare/billing/v1.15.0...billing/v1.16.0) (2023-06-20)
 
 
